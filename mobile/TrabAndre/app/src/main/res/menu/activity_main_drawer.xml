@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/clientes"
+            android:icon="@mipmap/cliente"
+            android:title="Cliente" />
+        <item
+            android:id="@+id/Funcionarios"
+            android:icon="@mipmap/funcionario"
+            android:title="Funcionarios" />
+        <item
+            android:id="@+id/Automoveis"
+            android:icon="@mipmap/automoveis"
+            android:title="Automoveis" />
+        <item
+            android:id="@+id/Locacao"
+            android:icon="@mipmap/locacao"
+            android:title="Locação" />
+        <item
+            android:id="@+id/Inovação"
+            android:icon="@mipmap/contas"
+            android:title="Contas" />
+    </group>
+
+</menu>
